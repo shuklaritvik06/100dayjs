@@ -6,4 +6,3 @@ A simple counter app, to start my Js learning journey, Day 1 completed.
 
 ![GIF](https://github.com/shuklaritvik06/LearningJavaScript/blob/main/Day%201/images/Day1.gif)
 
-https://learning-java-script.vercel.app/Day%201
