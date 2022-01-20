@@ -5,3 +5,5 @@ This is a simple web app to generate random background when the user clicks on t
 **Project Gif**
 
 ![GIF](https://github.com/shuklaritvik06/LearningJavaScript/blob/main/Day%202/images/Day2.gif)
+
+Link - https://randombackground.vercel.app/
