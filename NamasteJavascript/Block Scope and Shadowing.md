@@ -64,5 +64,12 @@ But if we will use let/const here
   console.log(a);
 ```
 
-Then here the let and const variable in the global scope it will be allocated memory in a script scope and the block declared vars would be declared in the block memory scope in the execution context. So when we will print it, it will print the variables value accordingly.
+Then here the let and const variable in the global scope it will be allocated memory in a script scope and the block declared vars would be declared in the block memory scope in the execution context. So when we will print it, it will print the variables value accordingly. var is function scoped.
 
+
+```js
+function a(){
+  var b=45;
+}
+console.log(b)  // b is not defined error
+```
