@@ -5,7 +5,7 @@ const query = document.getElementById("city");
 const iconURL = "https://api.openweathermap.org/img/w/";
 const apiDetails ={
     apiBase: "https://api.openweathermap.org/data/2.5/",
-    apiKey: "b43d3708a16f441acd289076dae2f094"
+    apiKey: "API KEY"
 }
 submitBtn.addEventListener("click",() => {
     const queryValue = query.value;
