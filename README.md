@@ -1,6 +1,6 @@
 # 100 Days of JavaScript
 
-JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.
+JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages. JavaScript is a prototype-based, single-threaded, dynamic language, supporting object-oriented.
 
 This repository will contain all the projects which I made while learning Js. Definitely js has vast number of things to learn, so again **Learning Never stops**.
 
