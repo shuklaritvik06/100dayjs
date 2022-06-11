@@ -6,7 +6,7 @@ const readTime = document.getElementById("time");
 const WORD_LIMIT = 10;
 function word_count(e){
     const input = inputArea.value;
-    const value = input.match(/\b[-?(\w+)?]+\b/gi);
+    const value = input.match(/\S+/gi);
     if(!value){
         wordCount.innerText = 0;
         return;
