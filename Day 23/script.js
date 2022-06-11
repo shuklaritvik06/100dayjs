@@ -1,6 +1,6 @@
 const searchInput = document.getElementById("query");
 const searchBtn = document.getElementById("searchBtn");
-const searchTit = document.getElementById("searchTitle");
+const searchTitle = document.getElementById("searchTitle");
 const searchResultArea = document.getElementById("searchArea");
 const apiUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=`;
 searchBtn.addEventListener("click",async () => {
@@ -18,7 +18,7 @@ async function getResult(a){
 }
 function displayResults(r,query){
     let output = "";
-    searchTit.innerHTML = `Search results: ${query}`
+    searchTitle.innerHTML = `Search results: ${query}`
     r.query.search.forEach((result)=>{
         let resultUrl = `https://en.wikipedia.org/?curid=${result.pageid}`;
         searchResultArea.classList.remove("d-none");
